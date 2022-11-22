@@ -2,6 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown, faArrowDown, faArrowDown19, faArrowDownShortWide, faBook, faBuilding, faBuildingColumns, faEnvelope, faHome, faHospital } from '@fortawesome/free-solid-svg-icons'
 import AssociateInstitute from './MegaMenus/AssociateInstitute';
+import AcademicDropdown from './MegaMenus/AcademicDropdown';
+import DeptDropdown from './MegaMenus/DeptDropdown';
 
 const TopNav = () => {
     return (
@@ -16,8 +18,12 @@ const TopNav = () => {
 
 
                         <li className='nav-item border-end  px-2'><a className='nav-link fw-normal text-white' href="#"><FontAwesomeIcon icon={faHome} /> NEMC</a></li>
-                        <li className='nav-item border-end  px-2'><a className='nav-link fw-normal text-white' href="#"><FontAwesomeIcon icon={faAngleDown} /> Academic</a></li>
-                        <li className='nav-item border-end px-2'><a className='nav-link fw-normal text-white' href="#"><FontAwesomeIcon icon={faBook} /> Dept & feculty</a></li>
+                        <li className='nav-item border-end  px-2'><a className='nav-link fw-normal text-white' href="#"><FontAwesomeIcon icon={faAngleDown} /> Academic</a>
+                            <AcademicDropdown />
+                        </li>
+                        <li className='nav-item border-end px-2'><a className='nav-link fw-normal text-white' href="#"><FontAwesomeIcon icon={faBook} /> Dept & feculty</a>
+                            <DeptDropdown />
+                        </li>
                         <li className='nav-item border-end  px-2'><a className='nav-link fw-normal text-white' href="#"><FontAwesomeIcon icon={faBuildingColumns} /> Campus life</a></li>
                         <li className='nav-item border-end  px-2'><a className='nav-link fw-normal text-white' href="#"><FontAwesomeIcon icon={faHospital} /> Hospital</a></li>
                         <li className='nav-item border-end  px-2'><a id='associate-item' className='nav-link fw-normal text-white' href="#"><FontAwesomeIcon icon={faBuilding} /> Associates institutes</a>

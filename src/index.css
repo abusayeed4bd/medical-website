@@ -42,7 +42,7 @@ p.nav-description {
   position: relative;
 }
 
-.top-nav li:hover {
+.top-nav>li:hover {
   background-color: black;
 }
 
@@ -60,9 +60,18 @@ p.nav-description {
   transform: scaleY(1);
 }
 
+/* 
 #associate {
   width: 1000px;
   left: 0;
   top: 100%;
 
+} */
+.dropdown li a {
+  transition: .4s;
+}
+
+.dropdown li a:hover {
+  color: red;
+  background-color: #fff;
 }

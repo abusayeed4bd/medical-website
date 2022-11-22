@@ -7,7 +7,7 @@ import denter from '../../../assets/dntal-300x169.jpg'
 const AssociateInstitute = () => {
     return (
 
-        <div id='associate' className="row bg-white p-3 position-absolute top-100 ">
+        <div id='associate' className="row bg-white p-3 position-absolute top-100 start-0">
             <div className="col-lg-3 col-3 text-start">
                 <img className='img-fluid' src={nursing} alt="" />
                 <a className='text-decoration-none text-black py-2 ' href="#">Nursing Institute</a>

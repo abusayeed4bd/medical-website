@@ -29,7 +29,7 @@ const DetailsSection = () => {
 
                 </ul>
             </section>
-            <section className='py-2' id='academic-qualification'>
+            <section className='py-2  table-responsive' id='academic-qualification'>
                 <h4 className='border-start border-danger border-5 ps-3'>ACADEMIC QUALIFICATION</h4>
                 <table class="table text-center  table-bordered border-dark">
                     <thead>
@@ -60,7 +60,7 @@ const DetailsSection = () => {
                 </table>
             </section>
 
-            <section className='py-2' id='academic-qualification'>
+            <section className='py-2 table-responsive' id='academic-qualification'>
                 <h4 className='border-start border-danger border-5 ps-3 py-2 mb-4'>CURRENT ACADEMIC ROLE AND RESPOSIBILITIES</h4>
                 <table class="table text-center  table-bordered border-dark">
                     <thead>
@@ -195,9 +195,9 @@ const DetailsSection = () => {
             </section>
 
 
-            <section className='py-2' id='experiences'>
+            <section className='py-2 table-responsive' id='experiences '>
                 <h4 className='border-start border-danger border-5 ps-3 py-2 mb-4'>EXPERIENCES</h4>
-                <table class="table text-center  table-bordered border-dark">
+                <table class="table  text-center  table-bordered border-dark">
                     <thead>
                         <tr className=''>
                             <th rowSpan={2} scope="col">Institute/Org</th>
@@ -264,9 +264,9 @@ const DetailsSection = () => {
 
 
 
-            <section className='py-2' id='publications'>
+            <section className='py-2 table-responsive' id='publications'>
                 <h4 className='border-start border-danger border-5 ps-3 py-2 mb-4'>PUBLICATIONS</h4>
-                <table class="table text-center  table-bordered border-dark">
+                <table class="table  text-center  table-bordered border-dark">
                     <thead>
                         <tr className=''>
                             <th scope="col">Title</th>

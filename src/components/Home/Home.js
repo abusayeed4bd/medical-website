@@ -31,7 +31,7 @@ const Home = () => {
                         <p className='mb-0 fs-6 fw-bold text-primary'>Medicine</p>
                     </div>
                     <div className="row mt-5">
-                        <div className="col-lg-4 sticky-top">
+                        <div className="col-lg-4">
                             <SideNav />
                         </div>
                         <div className="col-lg-8">
